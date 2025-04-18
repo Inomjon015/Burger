@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,10 +6,75 @@
 
 .sec_nav{
     background: #292929;
+    height: 65px;
     display: flex;
     gap: 31px;
+    align-items: center;
+    
     
     p{
         font-size: 18px;
+        color: white;
+        margin: 21px;
+        font-weight: 400;
     }
 }
+.section_cards{
+    background: #393636;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   place-items: center;
+
+}
+
+
+
+
+.sec_card{
+    background: #0C0C0C;
+    width: 370px;
+    margin: 15px;
+    border-radius: 4px;
+    
+    
+
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+        width: 338px;
+    }
+    
+    h4{
+        color: white;
+        max-width: 143px;
+        margin: 15px;
+    }
+
+    p{
+        color: white;
+        max-width: 338px;
+        margin: 15px;
+    }
+
+}
+
+.container {
+    max-width: 1109px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+
+.proez_pro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
