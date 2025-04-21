@@ -1,0 +1,9 @@
+@media(max-width:1600px){
+
+    .section_cards{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+                     
